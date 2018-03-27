@@ -20,7 +20,7 @@ const Body = () => {
 			<div className="aboutme">
 				<h1> About me </h1>
 				<img src={me} alt="me" className="me"/>
-				<p className="aboutmetext2">Hello there! My name is Dejan Gavrilovic and I am currently working to become an amazing full-stack developer.
+				<p className="aboutmetext2">Helloo there! My name is Dejan Gavrilovic and I am currently working to become an amazing full-stack developer.
 				I can help you design, build and deploy beautiful websites and web applications! </p>
 				
 				<div className="linkis">
