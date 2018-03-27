@@ -1,0 +1,184 @@
+.body1 {
+
+	border-bottom: solid 2px black;
+	background-image: linear-gradient(rgba(75,0,130,0.5),rgba(0, 0, 0, 0.4)), url('./banner.png');
+	background-size: cover;
+	background-position: center;
+    background-attachment: fixed;
+    height: 70vh;    
+    border-bottom: 4px solid #FA7273;
+	
+}
+
+.textbox {
+
+	display: flex;
+	height: 350px;
+	flex-direction: column;
+	
+}
+
+
+
+p {
+ 	
+  margin:120px;
+	color: #fde5ff;
+	font-size: 400%;
+  text-align: center;
+   
+}
+h1 {
+  text-align: center;
+  font-size: 250%;
+  color:#391356;
+}
+h2 {
+  text-align: center;
+  color:#FA7273;
+}
+
+.bigp {
+  font-size: 500%;
+  margin-top:0;
+}
+.Features {
+  margin-top: 3%;
+  height: 800px;
+  background-color:#F6F6F6;
+  display:flex;
+  flex-direction:column;
+  border-bottom: 4px solid #FA7273;
+}
+.row1 {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 2%;
+  margin-top :2%;
+}
+
+img {
+  height: 120px;
+  width: 120px;
+  padding-left:20px;
+  padding-right:20px;
+}
+
+.aboutmetext2 {
+  margin:1%;
+  font-size:250%;
+  color:#391356;
+}
+.aboutmetext {  
+  margin-top:20px;
+  font-size: 170%;
+  color: #391356;
+  width: 400px;
+  text-align: center;
+}
+.linkis {
+  display:flex;
+  flex-direction: row;
+}
+.aboutme {
+
+  display:flex;
+  flex-wrap:wrap;
+  flex-direction: column;
+  align-items: center;
+  border-bottom:4px solid #FA7273;
+
+}
+.me {
+  width: auto;
+  transform:scale(1.15);
+  
+  border-radius: 50%;
+}
+
+   
+
+
+
+
+
+
+
+
+
+.containerB {
+  padding:0%;
+  margin:3%;
+  position: relative;
+  width: 500px;
+  overflow: hidden;
+  cursor:pointer;
+  background-color: #000;
+
+}
+
+.imageB {
+  display: block;
+  width: 100%;
+  height:100%;
+  opacity: 0.9;
+  padding-left: 0;
+
+  
+}
+
+
+.overlayB {
+  z-index:1;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 1%; 
+  background-color: rgba(250,114,115, 0.4);
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  transition: .5s ease;
+  cursor:pointer;
+
+}
+
+.containerB:hover .overlayB {
+  height: 0;
+  cursor:pointer;
+}
+
+
+.textB {
+  z-index:1;
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ 
+
+}
+.textB p {
+  color:white;
+  font-size:115%;
+  margin:3%;
+}
+.textB img {
+  margin-top:20%;
+  margin-bottom:4%;
+  height:100px;
+  width: auto;
+}
+
+
+
+
+
+
+
+
+

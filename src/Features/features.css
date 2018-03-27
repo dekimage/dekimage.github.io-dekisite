@@ -1,0 +1,14 @@
+.Features {
+  margin-top: 6%;
+  height: 800px;
+  background-color:#F6F6F6;
+  display:flex;
+  flex-direction:column;
+  border-bottom: 4px solid #FA7273;
+}
+.horse {
+  padding-left:45px;
+}
+.airplane {
+  padding-left:35px;
+}

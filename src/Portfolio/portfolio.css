@@ -1,0 +1,87 @@
+
+.portfoliobig {
+  margin-top:6%;
+  background-color: transparent;
+}
+
+.images {
+	display: flex;
+	flex-wrap: wrap;
+  justify-content: center;
+  background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0, 0, 0, 0.2)), url('./projects/portfolio.jpg');
+  background-attachment: fixed;
+  background-position: center;
+}
+
+
+.container {
+  padding:0%;
+  margin:3%;
+  position: relative;
+  width: 500px;
+  overflow: hidden;
+  cursor:pointer;
+  background-color: #000;
+
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height:100%;
+  opacity: 0.9;
+  padding-left: 0;
+
+  
+}
+
+
+.overlay {
+  z-index:1;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 1%; 
+  background-color: rgba(250,114,115, 0.4);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+  cursor:pointer;
+
+}
+
+.container:hover .overlay {
+  height: 100%;
+  cursor:pointer;
+}
+
+
+.text {
+  z-index:1;
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ 
+
+}
+.text p {
+  color:black;
+  font-size:125%;
+  margin:3%;
+}
+.text img {
+  margin-top:20%;
+  margin-bottom:4%;
+  height:100px;
+  width: auto;
+}
+.fleximages {
+  display:flex;
+  justify-content: center;
+}

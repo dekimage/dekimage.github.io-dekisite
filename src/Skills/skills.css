@@ -1,0 +1,66 @@
+.boxpos {
+  background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0, 0, 0, 0.5)), url(http://mydreamclub.com/wp-content/uploads/2017/12/Anime-Nature-Wallpaper-16.jpg);
+  background-attachment: fixed;
+  background-color:rgba(255,255,255,0.5);
+  
+}
+img {
+  height: 120px;
+  width: 120px;
+
+  
+}
+h3 {
+  font-size: 150%;
+  text-align: center;
+  color:transparent;
+}
+
+.progress {
+  color:#391356;
+  color:transparent;
+}
+.skillbox {
+  padding: 1.5%;
+  height: 250px;
+  width: 250px; 
+  cursor: pointer; 
+  border: 1px solid #;
+  border-radius: 40px;
+  box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.4);
+  margin:5px;
+
+
+}
+.skillbox:hover h3 {
+   color:#391356;
+
+}
+.skillbox:hover .progress {
+  color:#391356;
+
+}
+.skillbox:hover {
+  background-color:rgba(255,255,255,0.5);
+}
+
+.imagebox {
+  display:flex;
+  justify-content: center;
+}
+
+.skillFlex {
+  
+  margin-left:0;
+  margin-right:0;
+  
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+}
+.skillz {
+  padding-top: 50px;
+  margin-top:4%;
+  background-color:rgba(255,255,255,0.5);
+}
+
