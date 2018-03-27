@@ -10,7 +10,6 @@ import project7 from './projects/project7.png';
 import project8 from './projects/project8.png';
 import project9 from './projects/project9.png';
 import project10 from './projects/project10.png';
-import portfolio from './projects/portfolio.jpg';
 import s1 from '../Skills/Skills/s1.png';
 import s2 from '../Skills/Skills/s2.png';
 import s3 from '../Skills/Skills/s3.png';
