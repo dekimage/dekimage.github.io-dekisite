@@ -18,15 +18,15 @@ const Features = () => {
 			<h1 id="myFeatures"> My Features </h1>
 				<div className="row1">
 					<div className="feature">
-						<img src={f1}/>
+						<img src={f1} alt="feature"/>
 						<h2>Goals Oriented </h2>		
 					</div>
 					<div className="feature">	
-						<img className="horse" src={f2}/>						
+						<img className="horse" src={f2} alt="feature"/>						
 						<h2> Strategic Thinker </h2>
 					</div>
 					<div className="feature">
-						<img className="airplane" src={f3}/>
+						<img className="airplane" src={f3} alt="feature"/>
 						<h2> Ultra Responsive </h2>
 					</div>
 				</div>
@@ -34,15 +34,15 @@ const Features = () => {
 
 				<div className="row1">
 						<div className="feature">
-							<img src={f4}/>
+							<img src={f4} alt="feature"/>
 							<h2> High Achiever </h2>		
 						</div>
 						<div className="feature">
-							<img src={f5}/>
+							<img src={f5} alt="feature"/>
 							<h2> Open Minded </h2>
 						</div>
 						<div className="feature">
-							<img src={f6}/>
+							<img src={f6} alt="feature"/>
 							<h2> Visionery </h2>
 						</div>
 				</div>
@@ -50,15 +50,15 @@ const Features = () => {
 
 				<div className="row1">
 						<div className="feature">
-							<img src={f7}/>
+							<img src={f7} alt="feature"/>
 							<h2> Creative </h2>		
 						</div>
 						<div className="feature">
-							<img src={f8}/>
+							<img src={f8} alt="feature"/>
 							<h2> Fast Learner </h2>
 						</div>
 						<div className="feature">
-							<img src={f9}/>
+							<img src={f9} alt="feature"/>
 							<h2> Mindful</h2>
 						</div>
 				</div>	
