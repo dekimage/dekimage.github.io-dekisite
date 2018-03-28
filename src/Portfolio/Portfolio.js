@@ -10,6 +10,7 @@ import project7 from './projects/project7.png';
 import project8 from './projects/project8.png';
 import project9 from './projects/project9.png';
 import project10 from './projects/project10.png';
+import project11 from './projects/project11.png';
 import s1 from '../Skills/Skills/s1.png';
 import s2 from '../Skills/Skills/s2.png';
 import s3 from '../Skills/Skills/s3.png';
@@ -27,6 +28,7 @@ const Portfolio = () => {
 			
 				
 				<div className="container">
+				<a href="https://github.com/dekimage/omnifood"> target="_blank"
 				  <img src={project1} alt="Avatar" className="image"/>
 				  	<div className="overlay">
 				   		<div className="text">
@@ -37,9 +39,11 @@ const Portfolio = () => {
 				   			<p> OmniFood Project </p>
 				   		</div>
 					</div>
+					</a>
 				</div>
 
 				<div className="container">
+				<a href="https://github.com/dekimage/Budgety" target="_blank">
 				  <img src={project2} alt="Avatar" className="image"/>
 				  	<div className="overlay">
 				   		<div className="text">
@@ -51,9 +55,11 @@ const Portfolio = () => {
 				   			<p> Budgety App </p>
 				   		</div>
 					</div>
+					</a>
 				</div>
 
 				<div className="container">
+				<a href="https://github.com/dekimage/PigGame" target="_blank">
 				  <img src={project3} alt="Avatar" className="image"/>
 				  	<div className="overlay">
 				   		<div className="text">
@@ -65,9 +71,11 @@ const Portfolio = () => {
 				   			<p> Pig Game </p>
 				   		</div>
 					</div>
+					</a>
 				</div>
 
 				<div className="container">
+				<a href="https://github.com/dekimage/PuzzleProject" target="_blank">
 				  <img src={project4} alt="Avatar" className="image"/>
 				  	<div className="overlay">
 				   		<div className="text">
@@ -78,9 +86,11 @@ const Portfolio = () => {
 				   			<p> Puzzle Network Shop </p>
 				   		</div>
 					</div>
+					</a>
 				</div>
 
 				<div className="container">
+				<a href="https://github.com/dekimage/BooksView" target="_blank">
 				  <img src={project9} alt="Avatar" className="image"/>
 				  	<div className="overlay">
 				   		<div className="text">
@@ -92,9 +102,11 @@ const Portfolio = () => {
 				   			<p> Mini Library View </p>
 				   		</div>
 					</div>
+					</a>
 				</div>
 
 				<div className="container">
+				<a href="https://github.com/dekimage/robofriends" target="_blank">
 				  <img src={project5} alt="Avatar" className="image"/>
 				  	<div className="overlay">
 				   		<div className="text">
@@ -105,9 +117,11 @@ const Portfolio = () => {
 				   			<p> RoboFriends Search App </p>
 				   		</div>
 					</div>
+					</a>
 				</div>
 
 				<div className="container">
+				<a href="https://github.com/dekimage/BackgroundGenerator" target="_blank">
 				  <img src={project6} alt="Avatar" className="image"/>
 				  	<div className="overlay">
 				   		<div className="text">
@@ -119,9 +133,11 @@ const Portfolio = () => {
 				   			<p> Background Generator </p>
 				   		</div>
 					</div>
+					</a>
 				</div>
 
 				<div className="container">
+				<a href="https://github.com/dekimage/MiniVideoApp" target="_blank">
 				  <img src={project8} alt="Avatar" className="image"/>
 				  	<div className="overlay">
 				   		<div className="text">
@@ -132,9 +148,11 @@ const Portfolio = () => {
 				   			<p> Youtube Mini + APIs</p>
 				   		</div>
 					</div>
+					</a>
 				</div>
 
 				<div className="container">
+				<a href="https://github.com/dekimage/smartbrain" target="_blank">
 				  <img src={project7} alt="Avatar" className="image"/>
 				  	<div className="overlay">
 				   		<div className="text">
@@ -143,11 +161,13 @@ const Portfolio = () => {
 				   				<img src={s8} alt="skill" />
 				   				<img src={s11} alt="skill" />
 				   			</div>
-				   			<p> Image Recognition AI </p>
+				   			<p> Image Recognition AI-in progress...</p>
 				   		</div>
 					</div>
+					</a>
 				</div>
 				<div className="container">
+				<a href="https://github.com/dekimage/WeatherAPI" target="_blank">
 				  <img src={project10} alt="Avatar" className="image"/>
 				  	<div className="overlay">
 				   		<div className="text">
@@ -158,6 +178,23 @@ const Portfolio = () => {
 				   			<p> Weather Fetch App </p>
 				   		</div>
 					</div>
+					</a>
+				</div>
+
+				<div className="container">
+				<a href="https://dekimage.github.io/dekisite/" target="_blank"> 
+				  <img src={project11} alt="Avatar" className="image"/>
+				  	<div className="overlay">
+				   		<div className="text">
+				   			<div className="fleximages">
+				   				<img src={s1} alt="skill" />
+				   				<img src={s2} alt="skill" />
+				   				<img src={s4} alt="skill" />
+				   			</div>
+				   			<p> Personal Portfolio Page </p>
+				   		</div>
+					</div>
+				</a>
 				</div>
 				
 				

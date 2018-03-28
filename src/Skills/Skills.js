@@ -2,140 +2,138 @@ export const skills = [
 {
 	id:1,
 	name:'HTML5',
-	progressBar: `${89} %`
+	progressBar: `${95} %`
 },
 {
 	id:2,
 	name:'CSS3',
-	progressBar: `${76} %`
+	progressBar: `${92} %`
 },
 {
 	id:3,
 	name:'JS',
-	progressBar: `${73} %`
+	progressBar: `${80} %`
 },
 {
 	id:4,
 	name:'React',
-	progressBar: `${89} %`
+	progressBar: `${75} %`
 },
 {
 	id:5,
 	name:'Redux',
-	progressBar: `${89} %`
+	progressBar: `${55} %`
 },
 {
 	id:6,
 	name:'Bootstrap',
-	progressBar: `${89} %`
+	progressBar: `${80} %`
 },
 {
 	id:7,
 	name:'Sass',
-	progressBar: `${89} %`
+	progressBar: `${65} %`
 },
 {
 	id:8,
 	name:'Node ',
-	progressBar: `${89} %`
+	progressBar: `${75} %`
 },
 {
 	id:9,
 	name:'Express ',
-	progressBar: `${89} %`
+	progressBar: `${60} %`
 },
 {
 	id:10,
 	name:'AJAX ',
-	progressBar: `${89} %`
+	progressBar: `${90} %`
 },
 {
 	id:11,
 	name:'SQL ',
-	progressBar: `${89} %`
+	progressBar: `${70} %`
 },
 {
 	id:12,
 	name:'PostgreSQL ',
-	progressBar: `${89} %`
+	progressBar: `${70} %`
 },
 {
 	id:13,
 	name:'MongoDB ',
-	progressBar: `${89} %`
+	progressBar: `${80} %`
 },
 {
 	id:14,
 	name:'C# ',
-	progressBar: `${89} %`
+	progressBar: `${25} %`
 },
 {
 	id:15,
 	name:'.NET ',
-	progressBar: `${89} %`
+	progressBar: `${30} %`
 },
+];
+
+export const tools = [
 {
-	id:16,
-	name:'SQLServer ',
-	progressBar: `${89} %`
-},
-{
-	id:17,
+	id:1,
 	name:'NPM ',
 	progressBar: `${89} %`
 },
 {
-	id:18,
+	id:2,
 	name:'GitHub ',
 	progressBar: `${89} %`
 },
 {
-	id:19,
+	id:3,
 	name:'Git ',
 	progressBar: `${89} %`
 },
 {
-	id:20,
+	id:4,
 	name:'Webpack ',
 	progressBar: `${89} %`
 },
 {
-	id:21,
+	id:5,
 	name:'BABEL ',
 	progressBar: `${89} %`
 },
 {
-	id:22,
+	id:6,
 	name:'Heroku ',
 	progressBar: `${89} %`
 },
 {
-	id:23,
+	id:7,
 	name:'Word ',
 	progressBar: `${89} %`
 },
 {
-	id:24,
+	id:8,
 	name:'Excel ',
 	progressBar: `${89} %`
 },
 {
-	id:25,
+	id:9,
 	name:'Access ',
 	progressBar: `${89} %`
 },
 {
-	id:26,
+	id:10,
 	name:'PowerPoint ',
 	progressBar: `${89} %`
 },
 {
-	id:27,
+	id:11,
 	name:'Sublime3 ',
 	progressBar: `${89} %`
 },
 {
-	id:28,
+	id:12,
 	name:'Shopify ',
 	progressBar: `${89} %`
 }

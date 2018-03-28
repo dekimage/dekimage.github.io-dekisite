@@ -13,7 +13,7 @@ const Header = ({onRouteChange}) => {
 					<li onClick={() => onRouteChange('portfolio')}> Portfolio </li>
 					<li onClick={() => onRouteChange('skills')}> Skills </li>
 					<li onClick={() => onRouteChange('features')}> Features </li>
-					<li> Contact Me </li>
+					
 			</ul>
 				
 			

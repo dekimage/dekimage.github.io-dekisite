@@ -7,7 +7,7 @@ import route3 from '../Portfolio/projects/route3.png';
 
 
 
-const Body = () => {
+const Body = ({onRouteChange}) => {
 	return (
 		<div>
 			<div className="body1">
@@ -20,12 +20,12 @@ const Body = () => {
 			<div className="aboutme">
 				<h1> About me </h1>
 				<img src={me} alt="me" className="me"/>
-				<p className="aboutmetext2">HellOO there! My name is Dejan Gavrilovic and I am currently working to become an amazing full-stack developer.
-				I can help you design, build and deploy beautiful websites and web applications! </p>
+				<p className="aboutmetext2">Hello there! My name is Dejan Gavrilovic and I am currently working to become a full-stack developer.
+				I can help you design and build functional websites and web applications! </p>
 				
 				<div className="linkis">
 
-					<div className="containerB">
+					<div className="containerB" onClick={() => onRouteChange('portfolio')} >
 				  		<img src={route1} alt="Avatar" className="imageB"/>
 				  		<div className="overlayB">
 				   			<div className="textB">
@@ -34,7 +34,7 @@ const Body = () => {
 						</div>
 					</div>
 
-					<div className="containerB">
+					<div className="containerB" onClick={() => onRouteChange('skills')}>
 				  		<img src={route2} alt="Avatar" className="imageB"/>
 				  		<div className="overlayB">
 				   			<div className="textB">
@@ -43,7 +43,7 @@ const Body = () => {
 						</div>
 					</div>
 
-					<div className="containerB">
+					<div className="containerB" onClick={() => onRouteChange('features')}>
 				  		<img src={route3} alt="Avatar" className="imageB"/>
 				  		<div className="overlayB">
 				   			<div className="textB">

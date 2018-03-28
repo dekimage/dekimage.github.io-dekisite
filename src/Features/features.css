@@ -1,14 +1,25 @@
 .Features {
-  margin-top: 6%;
-  height: 800px;
+  
+  height: 1000px;
   background-color:#F6F6F6;
   display:flex;
   flex-direction:column;
   border-bottom: 4px solid #FA7273;
-}
+ }
 .horse {
-  padding-left:45px;
+  padding-left:55px;
 }
 .airplane {
   padding-left:35px;
 }
+
+
+#myFeatures {
+	margin-top: 10%;
+}
+.row1 {
+  display: flex;
+  justify-content: space-between;
+  margin: 2% 5%;
+}
+

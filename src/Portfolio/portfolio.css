@@ -1,6 +1,6 @@
 
 .portfoliobig {
-  margin-top:6%;
+  margin-top:9%;
   background-color: transparent;
 }
 
@@ -8,7 +8,6 @@
 	display: flex;
 	flex-wrap: wrap;
   justify-content: center;
-  background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0, 0, 0, 0.2)), url('./projects/portfolio.jpg');
   background-attachment: fixed;
   background-position: center;
 }
@@ -22,6 +21,8 @@
   overflow: hidden;
   cursor:pointer;
   background-color: #000;
+  border: 5px solid grey;
+  box-shadow: 10px 10px 20px #777;
 
 }
 

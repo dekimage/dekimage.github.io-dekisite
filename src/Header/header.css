@@ -24,6 +24,7 @@
 .logoItems {
 
 	display: flex;
+	
 	justify-content: flex-end;
 	padding-right: 2%;
 	padding-left:2%;

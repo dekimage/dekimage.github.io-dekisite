@@ -21,6 +21,8 @@ const SkillList = ({skills}) => {
 
 				}
 			</div>
+
+			
 			
 		</div>
 	);

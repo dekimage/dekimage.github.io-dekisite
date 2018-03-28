@@ -28,7 +28,7 @@ class App extends Component {
         <Header onRouteChange={this.onRouteChange}/>
        
         {this.state.route === 'home' 
-        ?  <Body /> 
+        ?  <Body onRouteChange={this.onRouteChange}/> 
         :(
           this.state.route === 'portfolio' 
           ?  <Portfolio /> 

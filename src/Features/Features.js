@@ -12,8 +12,8 @@ import f9 from './features/f9.png';
 
 const Features = () => {
 	return(
-		<div> 
-
+		<div className="backgroundfeat"> 
+		
 			<div className="Features"> 
 			<h1 id="myFeatures"> My Features </h1>
 				<div className="row1">
@@ -43,7 +43,7 @@ const Features = () => {
 						</div>
 						<div className="feature">
 							<img src={f6} alt="feature"/>
-							<h2> Visionery </h2>
+							<h2> Visionary </h2>
 						</div>
 				</div>
 

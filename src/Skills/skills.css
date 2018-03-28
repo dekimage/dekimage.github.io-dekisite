@@ -1,14 +1,12 @@
 .boxpos {
-  background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0, 0, 0, 0.5)), url(http://mydreamclub.com/wp-content/uploads/2017/12/Anime-Nature-Wallpaper-16.jpg);
   background-attachment: fixed;
   background-color:rgba(255,255,255,0.5);
-  
+  margin-bottom: 4%;
+  padding-top: 5%;
 }
 img {
   height: 120px;
   width: 120px;
-
-  
 }
 h3 {
   font-size: 150%;
@@ -17,7 +15,7 @@ h3 {
 }
 
 .progress {
-  color:#391356;
+  color:#391356; 
   color:transparent;
 }
 .skillbox {
@@ -29,16 +27,12 @@ h3 {
   border-radius: 40px;
   box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.4);
   margin:5px;
-
-
 }
 .skillbox:hover h3 {
    color:#391356;
-
 }
 .skillbox:hover .progress {
   color:#391356;
-
 }
 .skillbox:hover {
   background-color:rgba(255,255,255,0.5);
@@ -50,10 +44,8 @@ h3 {
 }
 
 .skillFlex {
-  
   margin-left:0;
   margin-right:0;
-  
   display: flex;
   flex-wrap:wrap;
   justify-content: center;

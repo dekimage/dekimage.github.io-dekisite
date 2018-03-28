@@ -13,16 +13,18 @@
 .textbox {
 
 	display: flex;
-	height: 350px;
-	flex-direction: column;
-	
+	height: 500px;
+	flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
 }
 
 
 
 p {
  	
-  margin:120px;
+  margin:4%;
+  margin-top: 17%;
 	color: #fde5ff;
 	font-size: 400%;
   text-align: center;
@@ -42,20 +44,8 @@ h2 {
   font-size: 500%;
   margin-top:0;
 }
-.Features {
-  margin-top: 3%;
-  height: 800px;
-  background-color:#F6F6F6;
-  display:flex;
-  flex-direction:column;
-  border-bottom: 4px solid #FA7273;
-}
-.row1 {
-  display: flex;
-  justify-content: space-around;
-  margin-bottom: 2%;
-  margin-top :2%;
-}
+
+
 
 img {
   height: 120px;
@@ -78,7 +68,11 @@ img {
 }
 .linkis {
   display:flex;
+  flex-wrap:wrap;
+  justify-content: center;
   flex-direction: row;
+  margin-bottom: 5%;
+
 }
 .aboutme {
 
@@ -86,34 +80,27 @@ img {
   flex-wrap:wrap;
   flex-direction: column;
   align-items: center;
-  border-bottom:4px solid #FA7273;
+  
+
 
 }
 .me {
   width: auto;
   transform:scale(1.15);
-  
   border-radius: 50%;
 }
 
    
-
-
-
-
-
-
-
-
-
 .containerB {
   padding:0%;
-  margin:3%;
+  margin:10px;
   position: relative;
   width: 500px;
   overflow: hidden;
   cursor:pointer;
   background-color: #000;
+  border: 5px solid grey;
+  box-shadow: 10px 10px 20px #777;
 
 }
 
@@ -126,7 +113,6 @@ img {
 
   
 }
-
 
 .overlayB {
   z-index:1;
