@@ -7,17 +7,17 @@ export const skills = [
 {
 	id:2,
 	name:'CSS3',
-	progressBar: `${92} %`
+	progressBar: `${90} %`
 },
 {
 	id:3,
 	name:'JS',
-	progressBar: `${80} %`
+	progressBar: `${90} %`
 },
 {
 	id:4,
 	name:'React',
-	progressBar: `${75} %`
+	progressBar: `${85} %`
 },
 {
 	id:5,
@@ -32,48 +32,34 @@ export const skills = [
 {
 	id:7,
 	name:'Sass',
-	progressBar: `${65} %`
+	progressBar: `${40} %`
 },
 {
 	id:8,
-	name:'Node ',
+	name:'Node',
 	progressBar: `${75} %`
 },
 {
 	id:9,
-	name:'Express ',
+	name:'Express',
 	progressBar: `${60} %`
 },
 {
 	id:10,
-	name:'AJAX ',
-	progressBar: `${90} %`
+	name:'SQL',
+	progressBar: `${55} %`
 },
+
 {
 	id:11,
-	name:'SQL ',
-	progressBar: `${70} %`
-},
-{
-	id:12,
-	name:'PostgreSQL ',
-	progressBar: `${70} %`
-},
-{
-	id:13,
-	name:'MongoDB ',
-	progressBar: `${80} %`
-},
-{
-	id:14,
-	name:'C# ',
+	name:'C#',
 	progressBar: `${25} %`
 },
 {
-	id:15,
-	name:'.NET ',
-	progressBar: `${30} %`
-},
+	id:12,
+	name:'.NET',
+	progressBar: `${20} %`
+}
 ];
 
 export const tools = [

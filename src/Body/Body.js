@@ -9,7 +9,7 @@ import route3 from '../Portfolio/projects/route3.png';
 
 const Body = ({onRouteChange}) => {
 	return (
-		<div>
+		<div className="wholebody">
 			<div className="body1">
 				<div className="textbox">
 					<p> Welcome to my world! </p>

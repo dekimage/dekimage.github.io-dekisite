@@ -13,13 +13,13 @@ import f9 from './features/f9.png';
 const Features = () => {
 	return(
 		<div className="backgroundfeat"> 
-		
-			<div className="Features"> 
 			<h1 id="myFeatures"> My Features </h1>
-				<div className="row1">
+			<div className="Features"> 
+			
+				
 					<div className="feature">
 						<img src={f1} alt="feature"/>
-						<h2>Goals Oriented </h2>		
+						<h2>Goal Oriented </h2>		
 					</div>
 					<div className="feature">	
 						<img className="horse" src={f2} alt="feature"/>						
@@ -29,10 +29,8 @@ const Features = () => {
 						<img className="airplane" src={f3} alt="feature"/>
 						<h2> Ultra Responsive </h2>
 					</div>
-				</div>
-
-
-				<div className="row1">
+				
+				
 						<div className="feature">
 							<img src={f4} alt="feature"/>
 							<h2> High Achiever </h2>		
@@ -45,10 +43,7 @@ const Features = () => {
 							<img src={f6} alt="feature"/>
 							<h2> Visionary </h2>
 						</div>
-				</div>
-
-
-				<div className="row1">
+				
 						<div className="feature">
 							<img src={f7} alt="feature"/>
 							<h2> Creative </h2>		
@@ -61,7 +56,7 @@ const Features = () => {
 							<img src={f9} alt="feature"/>
 							<h2> Mindful</h2>
 						</div>
-				</div>	
+				
 			</div>
 	 	</div>
 	 );

@@ -1,25 +1,34 @@
-.Features {
-  
-  height: 1000px;
+.backgroundfeat {
+  height: auto;
   background-color:#F6F6F6;
   display:flex;
   flex-direction:column;
-  border-bottom: 4px solid #FA7273;
  }
-.horse {
-  padding-left:55px;
-}
-.airplane {
-  padding-left:35px;
-}
 
 
-#myFeatures {
-	margin-top: 10%;
+
+.Features {
+  display:flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
-.row1 {
+
+.feature {
   display: flex;
-  justify-content: space-between;
-  margin: 2% 5%;
+  justify-content: center;
+  width: 400px;
+  height: 100px;
+  margin: 5%;
 }
 
+img {
+  padding:0;
+  margin:0;
+}
+
+@media only screen and (max-width: 650px) {
+  .feature  {
+    justify-content: space-around;
+  }
+}
